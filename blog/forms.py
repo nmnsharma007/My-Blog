@@ -6,5 +6,5 @@ from .models import Post
 class PostForm(forms.ModelForm):
 
     class Meta:
-        model = Post
+        model = Post # use this model for the form
         fields = ('title','text',)
